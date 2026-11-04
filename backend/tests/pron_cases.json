@@ -1,0 +1,23 @@
+{
+  "words": {
+    "_comment": "word: [syllable_count, 0-based index of the primary-stressed syllable]. Expected values written from standard English phonology, independent of the code under test.",
+    "algorithm": [4, 0], "artificial": [4, 2], "intelligence": [4, 1], "machine": [2, 1], "learning": [2, 0], "database": [3, 0],
+    "python": [2, 0], "neural": [2, 0], "regression": [3, 1], "classification": [5, 3], "normalization": [5, 3], "parameter": [4, 1],
+    "hyperparameter": [6, 3], "gradient": [3, 0], "recursion": [3, 1], "probability": [5, 2], "dictionary": [4, 0], "variable": [4, 0],
+    "function": [2, 0], "compiler": [3, 1], "network": [2, 0], "protocol": [3, 0], "encryption": [3, 1], "library": [3, 0]
+  },
+  "mixed_sentences": [
+    "Okay, ab hum Machine Learning ka concept samajhte hain.",
+    "Pehle Artificial Intelligence ka meaning dekho.",
+    "Is algorithm ka time complexity kya hai?"
+  ],
+  "human_listening_checklist": [
+    "Each word is pronounced as ONE natural word (never letter by letter), except real acronyms such as SQL or CPU.",
+    "Syllable count and stressed syllable match the table shown in Pronunciation Studio.",
+    "Indian English voice: clear, no American/British caricature, no pauses inside words.",
+    "Hindi words (ab, hum, ka, samajhte, hain) are pronounced as Hindi, not as English letters.",
+    "At language switches (Machine Learning -> ka -> concept) there is no unnatural pause or change of loudness.",
+    "No word is dropped, repeated or replaced by a different word.",
+    "Slow mode is slower but still natural, not syllable-by-syllable."
+  ]
+}

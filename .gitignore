@@ -1,0 +1,18 @@
+# secrets - NEVER upload
+.env
+backend/.env
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Node / build
+node_modules/
+dist/
+
+# local data
+backend/lumetra.db
+backend/uploads/
+backend/tts_cache/
